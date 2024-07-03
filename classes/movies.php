@@ -17,6 +17,10 @@
         $this->genre = $genre;
         $this->age = $this->howoldIsthisMovie($year);  
     }
+     
+    public function getTitle() {
+        return $this->title;
+    }
 
     public function howoldIsthisMovie($year) {
          $this->year = $year;
